@@ -8,8 +8,16 @@
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="description" content= {{ site.data.global.description }}>
 
-    <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83092306-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-83092306-3');
+    </script>
+    
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/icon/face-icon-transparent-flip.png">
 
