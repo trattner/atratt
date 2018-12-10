@@ -2,6 +2,10 @@
 
   <div class="container">
     <div class="article">
+      {% for post in posts %}
+      {% include post_content.html %}
+      {% endfor %}
+      <br><br><br>
       <div class="post-body">
         <h1>I Help Students Achieve Their Goals Through Mentorship And Meaningful Work</h1>
         <p>
