@@ -6,7 +6,7 @@
 .article{
   margin: auto;
   width: 50%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', sans-serif;
   padding-top: 60px;
 }
 
@@ -79,7 +79,7 @@ img.about-head{
   height: 100px;
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
 
 img.about-head:hover{
