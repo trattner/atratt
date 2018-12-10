@@ -4,7 +4,7 @@ title: ''
 date: ''
 ---
 
-# I Prepare Students To Become Effective Adults Through Meaningful Work
+# I Help Students Achieve Their Goals Through Mentorship And Meaningful Work
 - ACT / SAT tutoring
 - Academic tutoring, especially Math, English/Writing, Spanish, Engineering
 - College planning and application guidance (essays, interviews, etc)
