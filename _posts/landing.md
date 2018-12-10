@@ -28,7 +28,7 @@ date: ''
 
 “We weren’t just looking for a tutor who could teach our son 7th grade math, but who could motivate him to learn and give an inspiration for the wider world beyond math. Andy was it.” --Motoko and John, parents
 
-# My Credentials Include
+# In The Past:
 
 - Commanded a multi-million dollar research experiment on the International Space Station.
 
@@ -36,11 +36,11 @@ date: ''
 
 - Founded Lean On Me, a mental health nonprofit that empowers thousands of college students to engage in meaningful and challenging conversations through technology.
 
-- Scored perfectly on SAT, ACT, AP, and IB test sections. On the first try.
+- Scored perfectly on SAT, ACT, AP, and IB test sections, on the first try.
 
-- Earned B.S. in Mathematics with Computer Science (course 18c) after only 3 years of classes at MIT.
+- Earned a B.S. in Mathematics with Computer Science (course 18c) after only 3 years of classes at MIT.
 
-- Designated a national chess expert by the U.S. Chess Federation.
+- Designated a national chess expert (Elo Rating 2000+) by the U.S. Chess Federation.
 
 # To Get Started...
 
