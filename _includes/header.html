@@ -8,18 +8,27 @@
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="description" content= {{ site.data.global.description }}>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83092306-3"></script>
+    <!-- Analytics -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      gtag('config', 'UA-83092306-3');
+      ga('create', 'UA-104170625-1', 'auto');
+      ga('send', 'pageview');
     </script>
 
+    <!-- Open Graph Protocol (Social Media) -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content={{ site.data.global.site-name }} />
+    <meta property="og:title" content={% if page.title %}{{ page.title }}{% else %}{{ site.data.global.title }}{% endif %} />
+    <meta property="og:description" content= {{ site.data.global.description }}/>
+    <meta property="og:url" content="page.url" />
+    <meta property="og:image" content="/img/icon/face-icon-transparent.png" />
+
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/img/icon/face-icon-transparent-flip.png">
+    <link rel="icon" type="image/png" href="/img/icon/face-icon-transparent.png">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic|Oswald:300,400,700">
@@ -27,15 +36,14 @@
     <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://atratt.com/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!--[if lte IE 9]>
     <script src="masonry.pkgd.min.js"></script>
     <![endif]-->
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
