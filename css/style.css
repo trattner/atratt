@@ -75,11 +75,18 @@ a:hover {
 }
 
 img.about-head{
+  margin-left: 40%;
   width: 100px;
   height: 100px;
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
   padding-bottom: 45px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 img.about-head:hover{
