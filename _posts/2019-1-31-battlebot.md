@@ -27,4 +27,4 @@ I brought my knowledge to future jobs and robotics teams in Portland, Oregon and
 
 [rdash]: /img/battlebot/rainbow-dash.png#L
 [team]: /img/battlebot/idf.jpg#L
-[golden]: /img/golden-rule.png#L
+[golden]: /img/battlebot/golden-rule.png#L
