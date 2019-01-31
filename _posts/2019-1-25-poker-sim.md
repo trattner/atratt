@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Texas Hold'em Is A Bad Bet'
+title: 'Texas Hold&#39;em Is A Bad Bet'
 date: 2018-7-20
 ---
 
