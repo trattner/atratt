@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Minesweeper, Music Player, and More'
+title: 'Minesweeper, Music, and More'
 date: 2016-4-4
 ---
 

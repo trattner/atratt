@@ -6,7 +6,7 @@ date: 2018-7-20
 
 While watching the 2018 World Series of Poker, I decided to create a <a href="https://github.com/trattner/poker-sim" target="_blank">Texas Hold'em simulation in Python</a>.
 
-I started with a <a href="https://github.com/trattner/poker-sim/blob/master/hold-em.py" target="_blank">game representation</a> including cards with face values and suits as well as a standard 52-card deck which randomly deals. Then I created a game table of arbitrarily many players who each hold a hand of cards. Within the game class is a method to find the best five-card hands for each player and compare them, breaking ties according to the rules.
+My <a href="https://github.com/trattner/poker-sim/blob/master/hold-em.py" target="_blank">game representation</a> includes cards with face values and suits as well as a standard 52-card deck that randomly deals. The game table consists of arbitrarily many players who each hold a hand of cards. Within the game class is a method to find the best five-card hands for each player and compare them, breaking ties according to the rules.
 
 To investigate the chances of winning, I <a href="https://github.com/trattner/poker-sim/blob/master/analyze2.py" target="_blank">analyzed</a> a simplified model of the game where our only choice is to fold or bet on our pocket cards. It is assumed that everyone makes some small fixed bet each subsequent round. For an n-player game, we can find the optimal hand-ranking cutoffs for greatest cumulative expected return and check our tables against commonly accepted results (for example, <a href="https://www.tightpoker.com/poker_hands.html" target="_blank">this website</a> and <a href="https://wizardofodds.com/games/texas-hold-em/" target="_blank">this one</a>).
 
