@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Minesweeper, Music, and More'
-date: 2016-4-4
+date: 2016-4-12
 ---
 
 At MIT, I taught as a student lab assistant for <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/" target="_blank">Intro to EECS (6.01)</a> during fall 2015, and I took <a href="http://web.mit.edu/6.005/www/sp16/" target="_blank">Software Construction (6.005)</a> in the spring of 2016. The latter class was a truly awesome learning experience that hammered home spec-driven and test-driven development in Java.
