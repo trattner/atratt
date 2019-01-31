@@ -66,6 +66,7 @@ a:hover {
 .icon-container{
   display: block;
   margin: 0 auto;
+  margin-left: 30%;
   width: 50%;
   padding-top: 20px;
   padding-bottom: 75px;
@@ -75,12 +76,12 @@ a:hover {
 }
 
 img.about-head{
-  margin-left: 40%;
   width: 100px;
   height: 100px;
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
   padding-bottom: 45px;
+  padding-top: 40px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
