@@ -12,7 +12,7 @@ The most challenging aspects of the design challenge were optimizing within give
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JjATq5anCbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Other Unified labs were fun as well, for example chasing weather balloons and building bottle rockets. Our MATLAB simulations kept getting better, as did our understanding of signals, structures, fluids, and thermodynamics. Here's an example lab <a href="/img/airplane/rocket-report.pdf" target="_blank">report</a>.
+Other Unified labs were fun as well, for example chasing high-altitude weather balloons and building bottle rockets. Our MATLAB simulations kept getting better, as did our understanding of signals, structures, fluids, and thermodynamics. Here's an example lab <a href="/img/airplane/rocket-report.pdf" target="_blank">report</a>.
 
 ![The Smart Rocket][rocket]
 
