@@ -20,7 +20,7 @@ Playing the simplified game with the optimal strategy gives us an idea of the un
 
 It's been well-documented that beyond some basic mathematical understanding, folks who manage to turn a steady profit find the biggest success factors to be metagame-related&mdash;things like self-control and finding fish to fry. Also, professionals find bigger upside in playing no-limit games where the math is substantially more complicated and thus people factors or "creativity" can play an even larger role.
 
-Given that there's a nontrivial underlying chance (>10%) to lose the day's cash based on the simplified math alone, and moreover that a large part of the poker life is tuning metagame factors rather than purely competing on game strategy, I would not recommend playing hold 'em as a satisfying nor mentally healthy way to earn a wage.
+Given that there's a nontrivial underlying chance (>10%) to lose the day's cash based on the simplified math alone, and moreover that a large part of the poker life is tuning metagame factors rather than purely competing on game strategy, I would not recommend playing hold'em as a satisfying nor mentally healthy way to earn a wage.
 
 
 <!--For 5 players, bust 0.7078 (0.0705348140991) and cashout 0.2574 (0.0700088565826).
