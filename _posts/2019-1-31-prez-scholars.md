@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'U.S. Presidential Scholars Program'
+title: 'Prez Scholars'
 date: 2017-7-13
 ---
 

@@ -22,8 +22,6 @@ The whole experience was tremendously helpful in launching my engineering career
 
 ![Golden Rule][golden]
 
-I brought my knowledge to future jobs and robotics teams in Portland, Oregon and elsewhere.
-
 
 [rdash]: /img/battlebot/rainbow-dash.png#L
 [team]: /img/battlebot/idf.jpg#L
