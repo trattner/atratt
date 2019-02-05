@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Investing Time'
-date: 2019-2-3
+date: 2019-2-5
 ---
 
 How should we spend our time? I've come to appreciate this vitally important question more and more with age.
