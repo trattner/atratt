@@ -4,7 +4,7 @@ title: 'Investing Time'
 date: 2019-2-3
 ---
 
-How should we spend our time? What should we be doing? These are vitally important questions, and I've come to appreciate them more and more with age.
+How should we spend our time? I've come to appreciate this vitally important question more and more with age.
 
 There are lots of decision-making frameworks out there, but in my experience, process is secondary to attitude. If we are just going through the motions mechanically, if our heart and soul aren't fully committed to establishing ground truth, then it doesn't really matter which set of questions we choose to ask ourselves. Whatever decision we face, we will simply find a convenient heuristic.
 
@@ -26,16 +26,16 @@ Tangibly beneficial time commitments will anchor me in clear waters, especially 
 
 ## 3. Why am I uniquely well-suited to do this?
 
-Maybe I have a distinctive combination of skills, or maybe I have a burning passion that will carry me through <a href="https://smile.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666/ref=sr_1_1?ie=UTF8&qid=1509722434&sr=8-1&keywords=the+dip+godin" target="_blank">the dip</a>. A new commitment integrates with existing priorities, needs, availability, and resources. If not, I should rearrange those things to fit the new commitment. As time goes on, harmony binds. Dissonance can lead to dialectics but tends toward dissolution. A project that only says yes to questions one and two is vastly different from one that says yes to question three. It's great to learn from failure, but ultimately, we want to succeed with flying colors. We cannot shine unless we recuse ourselves from mediocrity.
+Maybe I have a distinctive combination of skills, or maybe I have a burning passion that will carry me through <a href="https://smile.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666/ref=sr_1_1?ie=UTF8&qid=1509722434&sr=8-1&keywords=the+dip+godin" target="_blank">the dip</a>. Ideally, a new commitment integrates with existing priorities, needs, availability, and resources. If not, I should consider rearranging those things to fit the new commitment. As time goes on, harmony binds. Dissonance can lead to dialectics but tends toward dissolution. A project that only says yes to questions one and two is vastly different from one that says yes to question three. It's great to learn from failure, but ultimately, we want to succeed with flying colors. We cannot shine unless we recuse ourselves from mediocrity.
 
 ## 4. What will be the realistic total time required?
 
-It's very easy to underestimate project management overhead, the personal time I burn setting up to do the work itself. Is there driving required to get there? Will I ever need to spend an evening doing extra work? To be kind to my future self is to put on my own safety mask first. Unexpected problems arise more frequently than I anticipate, and it can be hard to ask for help. I need to be proactively self-centered. If I'm naturally inclined to push my limits already, then leaving a safety buffer can tip the balance away from burnout when things get busy.
+It's very easy to underestimate project management overhead, the personal time I burn setting up to do the work itself. Is there driving required to get there? Will I ever need to spend an evening doing extra work? As a kindness to my future self, I should put on my own safety mask first. Unexpected problems arise more frequently than I anticipate, and it can be hard to ask for help. I need to be proactively self-centered. If I'm naturally inclined to push my limits already, then leaving a safety buffer can tip the balance away from burnout when things get busy.
 
 ## 5. Do I have other commitments to focus on?
 
-If there are current obligations or goals that I'm failing to meet, an additional commitment might push those other things right off the map. Better to say no, save that passenger for the next trip, and take this chance to right the ship. Or maybe say yes, come on board, but dump the ballast first. Explicating the tradeoffs will expedite and safeguard the voyage.
+If there are current obligations or goals that I'm failing to meet, an additional commitment might push those other things right off the map. Better to say no, save that passenger for the next trip, and right the ship first. Or maybe say yes, come on board, but dump the ballast. Explicating tradeoffs will expedite and safeguard the voyage.
 
 ## 6. Are there personal detriments or liabilities?
 
-Think for a moment about the downsides. In addition to tradeoffs and opportunity costs, there may be speed bumps directly tied to the commitment itself. For example: application fees, wardrobe requirements, unfriendly colleagues, or difficult scheduling. Are you taking out a loan or assuming legal responsibilities? List all these things out. Are they bearable without any of the global or personal upsides that I am imagining in the first couple questions? People forget that their mental models of the future are often constructed upon abstract values. Practical details tend to dominate the present. It can be easy to wish away debt with hope, until it's time to sell the restaurant or go back to school for a different degree.
+Think for a moment about the downsides. In addition to tradeoffs and opportunity costs, there may be speed bumps directly tied to the commitment itself. For example: application fees, wardrobe requirements, unfriendly colleagues, or difficult scheduling. Am I taking out a loan or assuming legal responsibilities? List all these things out. Are they bearable without any of the global or personal upsides that I am imagining in the first couple questions? People forget that their mental models of the future are often constructed upon abstract values. Practical details tend to dominate the present. It can be easy to wish away debt with hope, until the market realities force us to sell the restaurant or go back to school for a different degree.
