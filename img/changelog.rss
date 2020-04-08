@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Taboola Mobile SDK Documentation Website]]></title>
+        <description><![CDATA[Welcome to the Taboola Mobile SDK documentation website. You'll find comprehensive guides and examples to help you start working with Taboola SDK as quickly as possible, as well as support if you get stuck. Let's jump right in!]]></description>
+        <link>https://taboolasdk.readme.io/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 08 Apr 2020 20:59:36 GMT</lastBuildDate>
+        <atom:link href="https://taboolasdk.readme.io/changelog.rss" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[New react-native plugin version - 1.2.3]]></title>
+            <description><![CDATA[We're happy to announce a new version for our react-native plugin.  We added two additions to the plugin  The plugin verified on the new react-native version 0.62.xThe publisher (you) is now in charge to open the organic items when using the onOrganicItemClick event. We will no longer open it on a C...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-react-native-plugin-version-123</link>
+            <guid isPermaLink="false">d4e77d03-d4e9-337d-b1c7-19b322619f19</guid>
+            <pubDate>Sun, 05 Apr 2020 06:34:38 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[Taboola SDK case studies]]></title>
+            <description><![CDATA[We are delighted to share with you three  case studies of publishers who implemented the Taboola SDK on their apps:TalkATone app Fox Sports Australia The Hindu]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/taboola-sdk-case-studies</link>
+            <guid isPermaLink="false">40630779-7d6d-3b18-8d04-c3fd7e66bb62</guid>
+            <pubDate>Tue, 10 Mar 2020 08:10:18 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android and iOS SDK version 2.4.0]]></title>
+            <description><![CDATA[25/2/2020 updateWe released iOS SDK 2.4.1 with a hotfix to an issue that prevented some apps from submitting their versions to the App Store We're happy to announce our new Android and iOS SDK latest version! - 2.4.0 We recommend our publishers to upgrade to this version when they can;  Android + iO...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-240</link>
+            <guid isPermaLink="false">47909475-79e4-3058-8c83-bf6cb8b8fde6</guid>
+            <pubDate>Sun, 23 Feb 2020 18:07:28 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New iOS SDK version 2.3.11]]></title>
+            <description><![CDATA[We're happy to announce our new iOS SDK - 2.3.10, following SDK 2.3.11 release.  These two versions are a hotfixes that changes the name of the CMPDataStorageUserDefaults library  and symbols in the SDK to TaboolaCMPDataStorageUserDefaults to avoid conflicts with other GDPR CMP SDKs iOS SDK changelo...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-ios-sdk-version-2310</link>
+            <guid isPermaLink="false">91b22eec-d264-3f3e-afb3-b9d82fd0bb6c</guid>
+            <pubDate>Fri, 14 Feb 2020 15:24:08 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android and iOS SDK version 2.3.9]]></title>
+            <description><![CDATA[We're happy to announce our new Android and iOS SDK latest version! - 2.3.9 Android SDK changelog link - https://sdk.taboola.com/taboolasdk/docs/taboola-android-sdk-changelog iOS SDK changelog link - https://sdk.taboola.com/taboolasdk/docs/taboola-ios-sdk-changelog]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-239</link>
+            <guid isPermaLink="false">608dd031-10bf-3376-b09b-53ae6b8765b1</guid>
+            <pubDate>Wed, 15 Jan 2020 10:02:00 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New iOS SDK version - 2.3.8]]></title>
+            <description><![CDATA[We've just released a new iOS SDK version (special version) that fixes an issue that prevented iOS SDK API publishers (Swift only) from using the click handler.]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-ios-sdk-version-238</link>
+            <guid isPermaLink="false">56be9622-1670-35ed-bd95-aa7a0fe8631b</guid>
+            <pubDate>Wed, 04 Dec 2019 16:15:47 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android and iOS SDK version - 2.3.7]]></title>
+            <description><![CDATA[We're happy to announce our new Android and iOS SDK latest version! - 2.3.7 iOS SDK 2.3.7 changelog:  Added support to position TaboolaWidget by using Constraints in addition to frames (widget / feed)Added the option to hide the scrolling bars for Feed via Native. See the SDK reference to see howThe...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-237</link>
+            <guid isPermaLink="false">a07919e5-2069-3282-a84f-182d455f06ca</guid>
+            <pubDate>Wed, 27 Nov 2019 09:25:55 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android SDK version - 2.3.6]]></title>
+            <description><![CDATA[We're happy to announce the new Android SDK latest version! - 2.3.6 This version is adding an option to hide the scrolling bars when using Widget/Feed via Native and fixes two minor bugs related to SDK API and Newsroom. SDK Changelog - see hereSDK Installation - see here]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-sdk-version-236</link>
+            <guid isPermaLink="false">32d724c0-0025-3f04-98f8-e5c21ac0ea9c</guid>
+            <pubDate>Thu, 24 Oct 2019 07:40:17 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New iOS SDK version - 2.3.6]]></title>
+            <description><![CDATA[We're happy to announce the new iOS SDK latest version! - 2.3.6 This version fixes an issue that caused the Feed via Native scrolling not to work when very slowly scrolling up and down the Feed.  SDK Changelog - see hereSDK Installation - see here]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-ios-sdk-version-236</link>
+            <guid isPermaLink="false">4bbd6812-bac5-3271-9f7a-8b538d5a154e</guid>
+            <pubDate>Thu, 03 Oct 2019 12:12:34 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android and iOS SDK version - 2.3.5]]></title>
+            <description><![CDATA[We're happy to announce our new Android and iOS SDK latest version! - 2.3.5 The main scope of this version was bug fixes and performance improvements. Please see the following changelog for more information: Android SDK - https://sdk.taboola.com/taboolasdk/docs/taboola-android-sdk-changelog#section-...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-235</link>
+            <guid isPermaLink="false">87f3dcef-3629-3f94-8fc7-66dde47054c0</guid>
+            <pubDate>Tue, 24 Sep 2019 09:44:23 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android SDK version (2.3.0) and iOS SDK version (2.3.1)]]></title>
+            <description><![CDATA[We're happy to announce a new major release for mobile SDK - version 2.3.0 for Android Android and 2.3.1 for iOS This SDK version includes new additions, better stability, bug fixes and other under-the-hood performance improvements. To ensure you are taking advantage of all of the latest and greates...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-230</link>
+            <guid isPermaLink="false">9b5e3e8a-298c-3eaa-9686-6f0dbd83da7f</guid>
+            <pubDate>Tue, 02 Jul 2019 09:37:00 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[New Android SDK (2.2.3) and iOS SDK (2.1.6)]]></title>
+            <description><![CDATA[We're happy to announce our new Android (2.2.3) and iOS SDK (2.1.6) versions. Android SDK full change log - https://sdk.taboola.com/taboolasdk/docs/taboola-android-sdk-changelog#section-222-2019-06-05 iOS SDK full change log - https://sdk.taboola.com/taboolasdk/docs/taboola-ios-sdk-changelog#section...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-sdk-222-and-ios-sdk-216</link>
+            <guid isPermaLink="false">8321504c-649e-3f24-a158-7cdb8cde8f1b</guid>
+            <pubDate>Wed, 05 Jun 2019 16:46:54 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android SDK (2.2.1) and iOS SDK (2.1.5)]]></title>
+            <description><![CDATA[We're happy to announce our new Android (2.2.1) and iOS SDK (2.1.5) versions.  Android SDK changelog - https://sdk.taboola.com/taboolasdk/docs/taboola-android-sdk-changelog#section-221-2019-05-12 iOS SDK changelog - https://sdk.taboola.com/taboolasdk/docs/taboola-ios-sdk-changelog#section-215-2019-0...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-sdk-221-and-ios-sdk-215</link>
+            <guid isPermaLink="false">af2139bd-c981-3301-8da0-8b26e4c04572</guid>
+            <pubDate>Tue, 14 May 2019 12:21:10 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Taboola react-native plugin beta]]></title>
+            <description><![CDATA[We are very thrilled to introduce our new Taboola react-native plugin React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS apps by enabling developers to use React along with native platform. This framework is being adop...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/announcing-taboola-react-native-plugin</link>
+            <guid isPermaLink="false">8d4c8327-1b9f-31c8-8c15-e7363832c29e</guid>
+            <pubDate>Mon, 08 Apr 2019 07:07:15 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android SDK (2.2.0) and iOS SDK (2.1.3)]]></title>
+            <description><![CDATA[We're happy to announce our new Android (2.2.0) and iOS SDK (2.1.3) versions.  These SDK versions brings more features, improvements and bug fixes. Android SDK changelog - https://sdk.taboola.com/taboolasdk/docs/taboola-android-sdk-changelog#section-220-2019-04-03 iOS SDK changelog - https://sdk.tab...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-sdk-220-and-ios-sdk-213</link>
+            <guid isPermaLink="false">f9f02ee2-f4f5-3250-ab04-5656d9bd1e88</guid>
+            <pubDate>Wed, 03 Apr 2019 10:41:00 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New Android and iOS SDK version 2.1.1]]></title>
+            <description><![CDATA[We're happy to announce our new Android and iOS SDK latest version! - 2.1.1 The main scope of this version was adding a new UI indicator for scroll switch event in the Feed via Native integration. Adding an endless to your apps requires us to shift the scrolling from the app into our Taboola Feed. S...]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-android-and-ios-sdk-version-2-1-1</link>
+            <guid isPermaLink="false">f3b3f2e4-4e43-3452-bcef-78937b667f03</guid>
+            <pubDate>Sun, 10 Feb 2019 20:47:00 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[New developers website]]></title>
+            <description><![CDATA[We're excited to launch Taboola's new SDK developers website. Please keep in mind that we're still adjusting and building this website, so some links might be broken.]]></description>
+            <link>https://taboolasdk.readme.io/v1.0/changelog/new-developers-website</link>
+            <guid isPermaLink="false">9a25d03e-a76c-39ed-b045-3beefc18f886</guid>
+            <pubDate>Thu, 07 Feb 2019 17:17:50 GMT</pubDate>
+            <type></type>
+        </item>
+    </channel>
+</rss>
