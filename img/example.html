@@ -1,0 +1,977 @@
+<style type="text/css">
+    @import url("https://use.typekit.net/xxi6uhs.css");
+
+    #hub-subheader-parent #hub-subheader {
+        background-color: #08D3A3;
+        border-bottom: none;
+    }
+
+    #hub-search input {
+        background-color: #08D3A3;
+        color: #fff;
+    }
+
+    #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .tabbed-child-projects li a {
+      display: none;
+    }
+
+    #hub-search .searchbox:hover .fa.fa-search,
+    #hub-search .searchbox.full .fa.fa-search {
+        color: #fff;
+    }
+
+    #hub-search input::placeholder {
+        color: white;
+    }
+
+    #hub-search input:hover {
+        color: #fff;
+    }
+
+    #hub-search .searchbox.full input {
+        color: #fff;
+    }
+
+    #hub-search input:focus {
+        color: #fff;
+    }
+
+  	#hub-search-results h3 em{
+      color: #384248;
+      font-weight: 700;
+  	}
+
+    #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .hub-breadcrumb-item span,
+    #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .hub-breadcrumb-item strong {
+        color: #fff;
+    }
+
+    #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .hub-breadcrumb-item .fa-chevron-down {
+        color: #fff;
+        opacity: 0.7;
+    }
+
+    #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .dropdown-menu a:hover {
+        background-color: #0093ff;
+    }
+
+    #hub-search .fa.fa-search {
+        color: #fff;
+    }
+
+    #hub-user-dropdown a {
+        color: #384248;
+    }
+
+    header#hub-header #header-top #header-logo {
+        width: 125px;
+        margin-top: 16px;
+    }
+
+    header#hub-header #header-top {
+        background-color: #08D3A3;
+    }
+
+    header#hub-header #header-top #header-nav-left li a,
+    header#hub-header #header-top #header-nav-right li a {
+        color: #ffffff;
+    }
+
+    header#hub-header #header-top #header-nav-left li a,
+    header#hub-header #header-top #header-nav-right li a:hover {
+        color: #fff;
+        box-shadow: none;
+    }
+
+    .hub-container,
+    .container {
+        max-width: 1220px;
+    }
+
+    html {
+        height: initial !important;
+    }
+
+    body {
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .hero {
+        background-color: #08D3A3;
+    }
+
+    .hero-layout {
+        width: 1220px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 610px;
+        margin-top: -40px;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .hero_left__h1 {
+        color: #fff;
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero_left__body {
+        color: #fff;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0.8;
+        width: 70%;
+        line-height: 22px;
+    }
+
+    .hero-left-line {
+        height: 7px;
+        width: 70px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .hero-left-line__longer {
+        width: 60%;
+        background-color: #ffe28e;
+        border-radius: 100px;
+    }
+
+    .hero-left-line__shorter {
+        width: 40%;
+        background-color: #ffc51d;
+        border-radius: 100px;
+        margin-left: 4px;
+    }
+
+    .hero_right-image {
+        display: flex;
+        width: 40%;
+    }
+
+    .hero_right-image img {
+        height: 400px;
+        margin-right: -38px;
+    }
+
+    .doc-types {
+        display: flex;
+        flex-direction: row;
+        padding: 70px 0px;
+        max-width: 1220px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: -110px;
+        margin-bottom: 100px;
+    }
+
+     .doc-type__box, .doc-type__box__metrics {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px 0px rgba(149, 149, 149, 0.25);
+    		flex-basis: 0;
+      	flex-grow: 1;
+        padding: 50px 30px;
+        height: 100%;
+    }
+
+    .doc-type__box {
+        margin-right: 36px;
+    }
+
+    .doc-type__box__metrics {
+        margin-right: 0px;
+    }
+
+    .doc-type__icon img {
+        height: 78px;
+        width: 78px;
+        margin-bottom: 30px;
+    }
+
+    .doc-type__title {
+        color: #384248;
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 22px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .doc-type__description {
+        color: #667283;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 70px;
+      	min-height: 68px
+    }
+
+    .doc-type__button__product {
+        padding: 15px 40px;
+        background-color: #008DF5;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        transition: 0.2s ease all;
+    }
+
+    .doc-type__button__product:hover {
+        color: #fff;
+        background-color: #0084E7;
+    }
+
+    .doc-type__button__api {
+        padding: 15px 40px;
+        background-color: #08D3A3;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        transition: 0.2s ease all;
+    }
+
+    .doc-type__button__api:hover {
+        color: #fff;
+        background-color: #0FB991;
+    }
+
+    .doc-type__button__metrics {
+        padding: 15px 40px;
+        background-color: #896CC4;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        transition: 0.2s ease all;
+    }
+
+    .doc-type__button__metrics:hover {
+        color: #fff;
+        background-color: #7560B1;
+    }
+
+    .guide-section {
+        max-width: 1220px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .guide-top-line {
+        height: 7px;
+        width: 70px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .guide-top_title-product {
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 26px;
+        color: #008DF5;
+        margin-bottom: 20px;
+    }
+
+    .guide-top-line__longer-product {
+        width: 40%;
+        background-color: #008DF5;
+        border-radius: 100px;
+        opacity: 0.4;
+    }
+
+    .guide-top-line__shorter-product {
+        width: 60%;
+        background-color: #008DF5;
+        border-radius: 100px;
+        margin-left: 4px;
+    }
+
+    .guide-top_title-api {
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 26px;
+        color: #08D3A3;
+        margin-bottom: 20px;
+    }
+
+    .guide-top-line__longer-api {
+        width: 70%;
+        background-color: #08D3A3;
+        border-radius: 100px;
+        opacity: 0.5;
+    }
+
+    .guide-top-line__shorter-api {
+        width: 30%;
+        background-color: #08D3A3;
+        border-radius: 100px;
+        margin-left: 4px;
+    }
+
+    .guide-top_title-metrics {
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 26px;
+        color: #896CC4;
+        margin-bottom: 20px;
+    }
+
+    .guide-top-line {
+        margin-bottom: 26px;
+    }
+
+    .guide-top-line__longer-metrics {
+        width: 60%;
+        background-color: #896CC4;
+        border-radius: 100px;
+    }
+
+    .guide-top-line__shorter-metrics {
+        width: 40%;
+        background-color: #896CC4;
+        border-radius: 100px;
+        margin-left: 4px;
+        opacity: 0.5;
+    }
+
+    .guide-bottom__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .guide-bottom__box__metrics {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .bottom-doc__box__metrics {
+        width: 25%;
+    }
+
+    .bottom-doc__title {
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 18px;
+        color: #384248;
+        margin-bottom: 10px;
+    }
+
+    .bottom-doc__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-doc__link {
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        color: #939EAE;
+        line-height: 36px;
+    }
+
+    .bottom-doc__api img {
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .guide-bottom__box__api__row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    .guide-bottom__box__api__row_bottom {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 100px;
+      }
+
+    .bottom-doc__box {
+        width: 25%;
+        padding: 0;
+    }
+
+    .bottom-doc__links a {
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        color: #939EAE;
+        line-height: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        transition: 0.2s ease all;
+    }
+
+    .bottom-doc__links a:hover {
+        color: #435369;
+    }
+
+    .bottom-doc__links .bottom-doc__view {
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        color: #008DF5;
+        line-height: 36px;
+        transition: 0.2s ease all;
+    }
+
+    .bottom-doc__links .bottom-doc__view:hover {
+        color: #0076CE;
+    }
+
+    .footer-block {
+        background-color: #012E50;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 0px;
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .footer-left__title {
+        font-family: "proxima-nova";
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .footer-left__links {
+        display: flex;
+        flex-direction: column;
+        margin-right: 120px;
+    }
+
+    .footer-left__link {
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        opacity: 0.5;
+        line-height: 36px;
+        transition: 0.2s ease all;
+    }
+
+    .footer-left__link:hover,
+    .footer-right__link:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .footer-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: right;
+    }
+
+    .footer-right__lower__box {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .footer-right__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-right__link {
+        text-decoration: none;
+        font-family: "proxima-nova";
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        opacity: 0.5;
+        transition: 0.2s ease all;
+    }
+
+    .footer-right__logo img {
+        float: right;
+        height: 34px;
+    }
+
+    @media only screen and (max-width: 1280px) {
+        body {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .hero_right-image img {
+            height: 300px;
+            margin-right: 0px;
+        }
+        .hero-layout {
+            max-width: 90%;
+        }
+        .hero_left {
+            width: 90%;
+        }
+        .doc-types {
+            max-width: 90%;
+        }
+        .guide-section {
+            max-width: 90%;
+            margin-bottom: 50px;
+        }
+        .guide-bottom__box {
+            flex-direction: column;
+            margin-bottom: 70px;
+        }
+        .bottom-doc__box {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        .guide-bottom__box__api__row {
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+        .guide-bottom__box__metrics {
+            flex-direction: column;
+        }
+        .bottom-doc__box__metrics {
+            margin-bottom: 40px;
+        }
+        .footer-block {
+            height: 950px;
+        }
+        .footer {
+            padding-bottom: 0px;
+            flex-direction: column;
+            width: 90%;
+        }
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 70px;
+        }
+        .footer-left__box {
+            margin-bottom: 40px;
+        }
+        .footer-right {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+            width: 90%;
+        }
+        .footer-right__logo img {
+            float: left;
+            margin-bottom: 20px;
+        }
+        .footer-right__links {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-right__link {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 1150px) {
+        body {
+            width: 100%;
+        }
+        .hero-layout {
+            flex-direction: column;
+            max-width: 100%;
+            margin-top: 80px;
+            height: 550px;
+        }
+        .hero_left__h1 {
+            width: 60%;
+            margin-top: 40px;
+        }
+        .hero_right-image img {
+            display: none;
+        }
+        .doc-types {
+            flex-direction: column;
+            margin-top: -210px;
+        }
+        .doc-type__box,
+        .doc-type__box__metrics {
+            margin-right: 0px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media only screen and (max-width: 850px) {
+        .hero-layout {
+            max-width: 100%;
+        }
+        .doc-types {
+            margin-bottom: 80px;
+        }
+    }
+</style>
+<div class="hero">
+    <div class="hero-layout">
+        <div class="hero_left">
+            <div class="hero_left__h1">
+                Welcome to the
+                <br/> ReadMe Documentation
+            </div>
+            <div class="hero-left-line">
+                <div class="hero-left-line__longer"></div>
+                <div class="hero-left-line__shorter"></div>
+            </div>
+            <div class="hero_left__body">
+                You'll find comprehensive guides and community support to help you start working with ReadMe as quickly as possible!
+            </div>
+        </div>
+        <div class="hero_right">
+            <div class="hero_right-image">
+                <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573685342/readme-docs_dakj9i.png" alt="readme-docs" border="0"></img>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="doc-types">
+    <div class="doc-type__box">
+        <div class="doc-type__icon">
+            <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573605450/product_tsjtee.png" alt="product-and-guides" border="0"></img>
+        </div>
+        <div class="doc-type__title">Product Guide</div>
+        <div class="doc-type__description">ReadMe is an easy to use tool to help you build out documentation! Each documentation site that you edit is directly editable and searchable.</div>
+        <a href="https://docs.readme.com/guides" class="doc-type__button__product">View docs</a>
+    </div>
+    <div class="doc-type__box">
+        <div class="doc-type__icon">
+            <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573605450/api_gfbabi.png" alt="api-reference" border="0"></img>
+        </div>
+        <div class="doc-type__title">ReadMe API</div>
+        <div class="doc-type__description">Create, update, and delete your docs programmatically. Sync your API reference with an OAS spec in GitHub.</div>
+        <a href="https://docs.readme.com/developers/reference/api-specification" class="doc-type__button__api">View docs</a>
+    </div>
+    <div class="doc-type__box__metrics">
+        <div class="doc-type__icon">
+            <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573605450/metrics_kamhqu.png" alt="developer-metrics" border="0"></img>
+        </div>
+        <div class="doc-type__title">Developer Metrics</div>
+        <div class="doc-type__description">You can integrate ReadMe into your API to get better insights into how your API is performing, who is using it, and what they are doing.</div>
+        <a href="https://docs.readme.com/metrics/docs" class="doc-type__button__metrics">View docs</a>
+    </div>
+</div>
+<div class="guide-section">
+    <div class="guide-top__box">
+        <div class="guide-top_title-product">Product Guide</div>
+        <div class="guide-top-line">
+            <div class="guide-top-line__longer-product"></div>
+            <div class="guide-top-line__shorter-product"></div>
+        </div>
+    </div>
+    <div class="guide-bottom__box">
+        <div class="bottom-doc__box">
+            <div class="bottom-doc__title">Getting Started</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/guides/docs/introduction" class="bottom-doc__link">Introduction</a>
+                <a href="https://docs.readme.com/guides/docs/best-practices" class="bottom-doc__link">Best Practices</a>
+                <a href="https://docs.readme.com/guides/docs/features" class="bottom-doc__link">Features</a>
+                <a href="https://docs.readme.com/guides/docs/introduction" class="bottom-doc__view">View All</a>
+            </div>
+        </div>
+        <div class="bottom-doc__box">
+            <div class="bottom-doc__title">General</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/guides/docs/dashboard" class="bottom-doc__link">Dashboard</a>
+                <a href="https://docs.readme.com/guides/docs/search" class="bottom-doc__link">Search</a>
+                <a href="https://docs.readme.com/guides/docs/enablingdisabling-features" class="bottom-doc__link">Enable/Disable Sections</a>
+                <a href="https://docs.readme.com/guides/docs/dashboard" class="bottom-doc__view">View All</a>
+            </div>
+        </div>
+        <div class="bottom-doc__box">
+            <div class="bottom-doc__title">Enterprise</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/guides/docs/setting-up-sso" class="bottom-doc__link">Setting Up SSO via Auth0</a>
+                <a href="https://docs.readme.com/guides/docs/setting-up-okta" class="bottom-doc__link">Setting Up Okta</a>
+                <a href="https://docs.readme.com/guides/docs/setting-up-google-saml" class="bottom-doc__link">Setting Up Google SAML</a>
+                <a href="https://docs.readme.com/guides/docs/setting-up-sso" class="bottom-doc__view">View All</a>
+            </div>
+        </div>
+        <div class="bottom-doc__box">
+            <div class="bottom-doc__title">Discussions</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/guides/docs/submit-a-question" class="bottom-doc__link">Submit a Question</a>
+                <a href="https://docs.readme.com/guides/docs/support-forum-for-admins" class="bottom-doc__link">Support Forum for Admins</a>
+                <a href="https://docs.readme.com/guides/docs/faq-1" class="bottom-doc__link">FAQ</a>
+            </div>
+        </div>
+    </div>
+    <div class="guide-top__box">
+        <div class="guide-top_title-api">ReadMe API</div>
+        <div class="guide-top-line">
+            <div class="guide-top-line__longer-api"></div>
+            <div class="guide-top-line__shorter-api"></div>
+        </div>
+    </div>
+    <div class="guide-bottom__box__api">
+        <div class="guide-bottom__box__api__row">
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Getting Started</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/guide" class="bottom-doc__link">Using the rdme CLI</a>
+                    <a href="https://docs.readme.com/developers/reference/authentication" class="bottom-doc__link">Authentication</a>
+                    <a href="https://docs.readme.com/developers/reference/pagination" class="bottom-doc__link">Pagination</a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">API Specification</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/api-specification#getapispecification" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">get/api-specification</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/api-specification#uploadapispecification" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/post_elbuby.png" alt="">
+                        <div class="bottom-doc_des">/api-specification</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/api-specification#updateapispecification" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/put_nfgiwg.png" alt="">
+                        <div class="bottom-doc_des">/api-specification/{id}</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/api-specification" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Categories</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/categories#retrieve-category-slug" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get category</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/categories#getcategory" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get docs for category</div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Changelog</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/changelog-1#getchangelogs" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get changelogs</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/changelog-1#createchangelog" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/post_elbuby.png" alt="">
+                        <div class="bottom-doc_des">Create changelog</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/changelog-1#getchangelog" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get changelog</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/changelog-1" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+        </div>
+        <div class="guide-bottom__box__api__row">
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Custom Pages</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/custom-pages#getcustompages" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get custom pages</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/custom-pages#createcustompage" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/post_elbuby.png" alt="">
+                        <div class="bottom-doc_des">Create custom page</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/custom-pages#getcustompage" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get custom page</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/custom-pages" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Docs</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/docs#getdoc" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get doc</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/docs#updatedoc" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/put_nfgiwg.png" alt="">
+                        <div class="bottom-doc_des">Update doc</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/docs#deletedoc" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573665934/delete_bkgxs3.png" alt="">
+                        <div class="bottom-doc_des">Delete doc</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/docs" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Errors</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/errors#geterrors" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get errors</div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Projects</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/getproject" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">Get metadata</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="guide-bottom__box__api__row_bottom">
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Swagger</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/swagger-2#uploadswagger" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/post_elbuby.png" alt="">
+                        <div class="bottom-doc_des">/swagger</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/swagger-2#updateswagger" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/put_nfgiwg.png" alt="">
+                        <div class="bottom-doc_des">/swagger/{id}</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/swagger-2#deleteswagger" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573665934/delete_bkgxs3.png" alt="">
+                        <div class="bottom-doc_des">/swagger/{id}</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/swagger-2" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+            <div class="bottom-doc__box">
+                <div class="bottom-doc__title">Version</div>
+                <div class="bottom-doc__links">
+                    <a href="https://docs.readme.com/developers/reference/version#getversions" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">/version</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/version#createversion" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663852/post_elbuby.png" alt="">
+                        <div class="bottom-doc_des">/version</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/version#getversion" class="bottom-doc__api">
+                        <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                        <div class="bottom-doc_des">/version:versionId</div>
+                    </a>
+                    <a href="https://docs.readme.com/developers/reference/version" class="bottom-doc__view">View All</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="guide-top__box">
+        <div class="guide-top_title-metrics">Developer Metrics</div>
+        <div class="guide-top-line">
+            <div class="guide-top-line__longer-metrics"></div>
+            <div class="guide-top-line__shorter-metrics"></div>
+        </div>
+    </div>
+    <div class="guide-bottom__box__metrics">
+        <div class="bottom-doc__box__metrics">
+            <div class="bottom-doc__title">Getting Started</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/metrics/docs/viewing-api-metrics-in-readme" class="bottom-doc__link">Developer Metrics in ReadMe</a>
+                <a href="https://docs.readme.com/metrics/docs/showing-api-logs-to-users" class="bottom-doc__link">Showing API Logs in Documentation</a>
+            </div>
+        </div>
+        <div class="bottom-doc__box__metrics">
+            <div class="bottom-doc__title">API Logs</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/metrics/docs/sending-logs-to-readme-with-nodejs" class="bottom-doc__link">Sending API Logs to ReadMe</a>
+                <a href="https://docs.readme.com/metrics/docs/sending-logs-to-readme-with-cloudflare" class="bottom-doc__link">Sending API Logs with Node.js</a>
+                <a href="https://docs.readme.com/metrics/docs/sending-logs-to-readme-via-the-api" class="bottom-doc__link">Sending API Logs with CloudFlare</a>
+            </div>
+        </div>
+        <div class="bottom-doc__box__metrics">
+            <div class="bottom-doc__title">API Reference</div>
+            <div class="bottom-doc__links">
+                <a href="https://docs.readme.com/developers/reference/api-logs" class="bottom-doc__api">
+                    <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573663794/get_lsqsru.png" alt="">
+                    <div class="bottom-doc_des">/request</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-block">
+    <div class="footer">
+        <div class="footer-left">
+            <div class="footer-left__box">
+                <div class="footer-left__title">Products</div>
+                <div class="footer-left__links">
+                    <a href="https://docs.readme.com" class="footer-left__link">Documentation</a>
+                    <a href="https://readme.com/metrics" class="footer-left__link">Developer Metrics</a>
+                    <a href="https://readme.com/enterprise" class="footer-left__link">Enterprise</a>
+                    <a href="https://readme.com/pricing" class="footer-left__link">Pricing</a>
+                </div>
+            </div>
+            <div class="footer-left__box">
+                <div class="footer-left__title">Company</div>
+                <div class="footer-left__links">
+                    <a href="https://blog.readme.com" class="footer-left__link">ReadMe Blog</a>
+                    <a href="https://readme.com/about" class="footer-left__link">About</a>
+                    <a href="https://readme.com/careers" class="footer-left__link">We’re Hiring</a>
+                    <a href="https://readme.com/about" class="footer-left__link">Support</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-right__logo">
+                <a href="https://readme.com/" target="_blank">
+                    <img src="https://res.cloudinary.com/dfoliseuw/image/upload/v1573609060/readme-logo-blue_gwzjqv.png" alt="readme-logo" border="0"></img>
+                </a>
+            </div>
+            <div class="footer-right__lower__box">
+                <div class="footer-right__links">
+                    <a href="https://readme.com/tos" class="footer-right__link">Terms of Service</a>
+                    <a href="https://readme.com/privacy" class="footer-right__link">Privacy Policy</a>
+                    <a href="https://readme.com/mas" class="footer-right__link">Master Service Agreement</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

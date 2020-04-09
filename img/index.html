@@ -1,0 +1,441 @@
+<style type="text/css">
+
+  body {
+    margin: 0;
+    background: #F2F2F2;
+  }
+
+  .wrapper {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Arial Narrow', 'Helvetica';
+    font-weight: 200;
+  }
+
+  .top-section{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-image: url("top-background-high-res.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .down-arrow{
+    position: absolute;
+    top: 50%;
+    display: none;
+  }
+
+  .middle-section{
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .bottom-section{
+    background: #F2F2F2;
+    padding-top: 80px;
+    padding-bottom: 150px;
+  }
+
+  .landing-text-wrapper{
+    margin-left: 22.5%;
+    padding-top: 6%;
+    width: 35%;
+  }
+
+  .landing-text-wrapper h1 {
+    font-size: 48px;
+  }
+
+  .landing-text-wrapper p {
+    font-size: 24px;
+  }
+
+  #mobile-sdk-wrapper {
+    width: 250px;
+  }
+
+  .top-image-wrapper {
+  }
+
+  .top-image {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+
+  .item {
+    margin: auto;
+  }
+
+  .panel-top{
+
+  }
+
+  .clearfix {
+      *zoom:1 /* for IE */
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+      content: " ";
+      display: table;
+  }
+
+  .clearfix:after {
+      clear: both;
+  }
+
+
+  .panel-separator{
+    margin-top: 10px;
+    border-top: 1px solid #DEDEDE;
+    margin-bottom: 10px;
+  }
+
+  .panel-bottom{
+    width: 100%;
+  }
+
+  .panel-image{
+    height: 100px;
+    float:left;
+    margin-right:5px;
+  }
+
+  .panel-title-group{
+    display: flex;
+    flex-direction: column;
+    float:left;
+    width: 160px;
+    padding-left: 10px;
+    height: 100px;
+  }
+
+  .panel-title{
+    font-size: 20px;
+    line-height: 24px;
+    margin-auto;
+  }
+
+  .start-button{
+    background: #3CB8DF;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+    margin: auto;
+    display: inline-block;
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  .panel-bottom-group{
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 15px;
+    margin: auto;
+  }
+
+  .panel-bottom-item{
+    width: 75px;
+    margin: auto;
+    vertical-align: center;
+  }
+
+  .panel-bottom-icon{
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+  }
+
+  .panel-bottom-separator{
+    border-left: 1px solid #DEDEDE;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 15px;
+  }
+
+  #sdk-announcements{
+    width: 20%;
+  }
+
+  #bs-api-announcements{
+    width: 20%;
+    margin-top: 0;
+  }
+
+  .rss-feed--wrapper{
+
+  }
+
+  .rss-feed{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .rss-feed--header{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C4C4C4;
+    font-size: 20px;
+  }
+  .rss-feed--header a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .rss-feed--header a:hover {
+    text-decoration: underline;
+  }
+
+  .rss-feed--list{
+    width: 100%;
+    padding-top: 2em;
+    padding-right: 1em;
+  }
+
+  .rss-feed--list a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .rss-feed--list a:hover{
+    text-decoration: underline;
+  }
+
+  .feed-item {
+    width: 100%;
+    padding-bottom: 20px;
+    color: #808080;
+    font-size: 12px;
+    font-weight: 150;
+  }
+
+  @media only screen and (max-width: 1280px) {
+  }
+
+  @media only screen and (max-width: 1150px) {
+  }
+
+  @media only screen and (max-width: 850px) {
+  }
+
+</style>
+
+<div class="wrapper">
+  <div class="top-section">
+    <!--<div class="top-image-wrapper">
+      <img src="top-background-high-res.png" class="top-image"/>
+    </div>-->
+    <div class="landing-text-wrapper">
+        <h1>WELCOME TO THE TABOOLA DEV CENTER</h1>
+        <p>Here, you'll find comprehensive guides and examples to get you started as quickly as possible, as well as support if you get stuck.</p>
+        <p>Let's jump right in!</p>
+    </div>
+  </div>
+
+  <div class="down-arrow">
+    <img src="scroll-arrow.png"/>
+  </div>
+
+  <div class="middle-section">
+    <div class="container">
+
+      <div class="item" id="mobile-sdk-wrapper">
+        <div class="clearfix float-my-children panel-top">
+          <img src="phone-graphic.png" class="panel-image"/>
+          <div class="panel-title-group">
+            <div class="panel-title">Mobile SDK Documentation</div>
+            <div class="start-button">Get Started</div>
+          </div>
+        </div>
+        <div class="panel-separator">
+        </div>
+        <div class="panel-bottom">
+          <div class="panel-bottom-group">
+            <div class="panel-bottom-item">
+              <img src="android.png" class="panel-bottom-icon"/>
+              Android
+            </div>
+            <div class="panel-bottom-separator"></div>
+            <div class="panel-bottom-item">
+              <img src="mac.png" class="panel-bottom-icon"/>
+              iOS
+            </div>
+            <div class="panel-bottom-separator"></div>
+            <div class="panel-bottom-item">
+              <img src="support-icon.png" class="panel-bottom-icon"/>
+              Support
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item" id="bs-api-wrapper">
+        <div class="clearfix float-my-children panel-top">
+          <img src="backstage-graphic.png" class="panel-image"/>
+          <div class="panel-title-group">
+            <div class="panel-title">Backstage API Documentation</div>
+            <div class="start-button">Get Started</div>
+          </div>
+        </div>
+        <div class="panel-separator">
+        </div>
+        <div class="panel-bottom">
+          <div class="panel-bottom-group">
+              <img src="support-icon.png" class="panel-bottom-icon"/>
+              Community Discussions
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-section">
+    <div class="container">
+
+      <div class="item" id="sdk-announcements">
+        <div class="rss-feed--wrapper">
+          <div class="rss-feed">
+            <div class="rss-feed--header">
+              <a href="https://developers.taboola.com/taboolasdk/blog">SDK Announcements</a>
+            </div>
+            <div id="rss-feed--sdk-list" class="rss-feed--list">
+            </div>
+          </div>
+        </div>
+        <div class="push">
+        </div>
+      </div>
+
+      <div class="item" id="bs-api-announcements">
+        <div class="rss-feed--wrapper">
+          <div class="rss-feed">
+            <div class="rss-feed--header">
+              <a href="https://developers.taboola.com/taboolasdk/blog">BS API Announcements</a>
+            </div>
+            <div id="rss-feed--bs-list" class="rss-feed--list">
+            </div>
+          </div>
+        </div>
+        <div class="push">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script >
+  $( document ).ready(function() {
+      $.get('https://andytrattner.com/atratt/img/changelog.rss',function(response){
+      var el = document.createElement( 'div' );
+      var rssList = []
+      var listOfTwoItems = []
+      $(response).find("item").each(function () { // or "item" or whatever suits your feed
+        var el = $(this);
+
+        var title = el.find("title").text().replace("<![CDATA[", "").replace("]]>", "");
+        var titleLink = "https://developers.taboola.com/taboolasdk" + el.find("link").text().split("v1.0")[1] + "?ref=mainpage";
+
+        var pubDateRaw = el.find("pubDate").text().replace("<![CDATA[", "").replace("]]>", "").split(" ");
+        var pubDate = pubDateRaw[0]+ ' ' + pubDateRaw[1]+ ' ' + pubDateRaw[2]+ ' ' + pubDateRaw[3]
+
+        var feeditem = document.createElement( 'div' )
+        var titleDiv = document.createElement( 'a' )
+        titleDiv.innerText = title
+        titleDiv.className = "title";
+        titleDiv.href = titleLink;
+
+        var pubDateDiv = document.createElement( 'div' )
+        pubDateDiv.innerText = pubDate
+        pubDateDiv.className = "pub-date";
+
+        feeditem.appendChild(titleDiv)
+        feeditem.appendChild(pubDateDiv)
+        feeditem.className = "feed-item";
+
+        if(listOfTwoItems.length === 1){
+          var feed2 = document.createElement( 'div' )
+          feed2.appendChild(feeditem)
+          feed2.appendChild(listOfTwoItems[0])
+          feed2.className = "feed2"
+          listOfTwoItems = []
+          return rssList.push(feed2)
+        }
+        listOfTwoItems.push(feeditem)
+      });
+      if(listOfTwoItems.length === 1){
+        var feed2 = document.createElement( 'div' )
+        feed2.appendChild(listOfTwoItems[0])
+        feed2.className = "feed2"
+        rssList.push(feed2)
+      }
+      var rssfeed = document.getElementById('rss-feed--sdk-list');
+      rssList.forEach(function(item){
+        rssfeed.appendChild(item)
+      })
+
+      });
+
+      $.get('https://andytrattner.com/atratt/img/bs-changelog.rss',function(response){
+      var el = document.createElement( 'div' );
+      var rssList = []
+      var listOfTwoItems = []
+      $(response).find("item").each(function () { // or "item" or whatever suits your feed
+        var el = $(this);
+
+        var title = el.find("title").text().replace("<![CDATA[", "").replace("]]>", "");
+        var titleLink = "https://developers.taboola.com/backstage-api" + el.find("link").text().split("v1.0")[1] + "?ref=mainpage";
+
+        var pubDateRaw = el.find("pubDate").text().replace("<![CDATA[", "").replace("]]>", "").split(" ");
+        var pubDate = pubDateRaw[0]+ ' ' + pubDateRaw[1]+ ' ' + pubDateRaw[2]+ ' ' + pubDateRaw[3]
+
+        var feeditem = document.createElement( 'div' )
+        var titleDiv = document.createElement( 'a' )
+        titleDiv.innerText = title
+        titleDiv.className = "title";
+        titleDiv.href = titleLink;
+
+        var pubDateDiv = document.createElement( 'div' )
+        pubDateDiv.innerText = pubDate
+        pubDateDiv.className = "pub-date";
+
+        feeditem.appendChild(titleDiv)
+        feeditem.appendChild(pubDateDiv)
+        feeditem.className = "feed-item";
+
+        if(listOfTwoItems.length === 1){
+          var feed2 = document.createElement( 'div' )
+          feed2.appendChild(feeditem)
+          feed2.appendChild(listOfTwoItems[0])
+          feed2.className = "feed2"
+          listOfTwoItems = []
+          return rssList.push(feed2)
+        }
+        listOfTwoItems.push(feeditem)
+      });
+      if(listOfTwoItems.length === 1){
+        var feed2 = document.createElement( 'div' )
+        feed2.appendChild(listOfTwoItems[0])
+        feed2.className = "feed2"
+        rssList.push(feed2)
+      }
+      var rssfeed = document.getElementById('rss-feed--bs-list');
+      rssList.forEach(function(item){
+        rssfeed.appendChild(item)
+      })
+
+      });
+
+    });
+</script>
