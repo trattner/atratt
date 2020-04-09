@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Taboola Backstage API]]></title>
+        <description><![CDATA[Taboola Backstage API]]></description>
+        <link>https://backstage-api.readme.io/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 09 Apr 2020 17:37:06 GMT</lastBuildDate>
+        <atom:link href="https://backstage-api.readme.io/changelog.rss" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Viewability Tags]]></title>
+            <description><![CDATA[Using third-party analytics, you can track  your Taboola Ad impressions and see how well they meet desired brand safety and viewability outcomes. See: Viewability Tags.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/viewability-tags</link>
+            <guid isPermaLink="false">caec5137-b1ca-3a4a-886f-31b99e9e7734</guid>
+            <pubDate>Thu, 02 Apr 2020 13:54:37 GMT</pubDate>
+            <type></type>
+        </item>
+        <item>
+            <title><![CDATA[Auto-Publisher Targeting]]></title>
+            <description><![CDATA[Occasionally, SmartBid (aka the AutoBlocker) automatically blocks a publisher that performs poorly, so that it does not impact campaign performance.  You can view this list of suppressed publishers via the readonly auto_publisher_targeting field.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/auto-publisher-targeting</link>
+            <guid isPermaLink="false">9216e0fe-ca4d-37f1-b57a-1d7abddaa9a0</guid>
+            <pubDate>Mon, 23 Mar 2020 15:26:20 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Item Image Management]]></title>
+            <description><![CDATA[The API now provides utility methods for uploading and managing campaign item images.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/item-image-management</link>
+            <guid isPermaLink="false">4602d250-0cf8-33c8-9569-a2cc90a43c62</guid>
+            <pubDate>Sun, 08 Mar 2020 12:33:58 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Campaign Summary Report - Region and DMA Dimensions]]></title>
+            <description><![CDATA[The Campaign Summary Report  now supports Region and DMA dimensions.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/campaign-summary-report-region-and-dma-dimensions</link>
+            <guid isPermaLink="false">4f602dd5-f84d-3e97-91ef-994613bf5063</guid>
+            <pubDate>Sun, 08 Mar 2020 10:18:36 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Separate Fields for Region and DMA Targeting]]></title>
+            <description><![CDATA[You can now apply Region and DMA Targeting via new, 'specific' Campaign properties: region_country_targeting and  dma_country_targeting.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/separate-fields-for-region-and-dma-targeting</link>
+            <guid isPermaLink="false">6d139ebd-c33d-3f66-8881-29f4dcd5faa2</guid>
+            <pubDate>Mon, 17 Feb 2020 15:12:11 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[External Brand Safety]]></title>
+            <description><![CDATA[To ensure that your creatives appear alongside content that is right for your brand, you can apply external brand safety to your campaign. See External Brand Safety.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/external-brand-safety</link>
+            <guid isPermaLink="false">d6a0a06f-473a-34de-8173-28e4bd1d1075</guid>
+            <pubDate>Thu, 13 Feb 2020 10:46:43 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Block Publishers At The Account Level]]></title>
+            <description><![CDATA[You can now suppress specific publishers at the account level (i.e. for all campaigns). See: Account Level Blocking.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/block-publishers-at-the-account-level</link>
+            <guid isPermaLink="false">e12ce1f8-ca33-3e7d-bd8e-a6b32f3b5285</guid>
+            <pubDate>Wed, 12 Feb 2020 14:02:28 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Create a Batch of Campaign Items]]></title>
+            <description><![CDATA[The mass endpoint allows you to create a batch of campaign items - each item with a url, title and thumbnail that you provide.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/create-a-batch-of-campaign-items</link>
+            <guid isPermaLink="false">f5ff5fc7-0758-3185-9dd5-fb3a170d1003</guid>
+            <pubDate>Thu, 28 Nov 2019 13:13:17 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Custom Audience Targeting - Exclude by default]]></title>
+            <description><![CDATA[When creating a new custom audience, you can use the exclude_from_campaigns field to exclude that audience by default from all campaigns.]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/custom-audience-targeting-excluded-by-default</link>
+            <guid isPermaLink="false">daebc855-06b3-3962-92d6-1aa8a307d44d</guid>
+            <pubDate>Mon, 25 Nov 2019 10:36:29 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Reject Reason (Campaigns and Items)]]></title>
+            <description><![CDATA[The API now provides a reject_reason field for Campaigns and Items. If the Campaign or Item were rejected, the reject_reason field provides the reason. See:  Campaign Fields &gt; policy_reviewItem Fields &gt; policy_review]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/reject-reason-campaigns-and-items</link>
+            <guid isPermaLink="false">b414798a-4ba2-3da0-b0b7-ac8ad6e3ea96</guid>
+            <pubDate>Sun, 24 Nov 2019 14:45:11 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Network Level Custom Audiences]]></title>
+            <description><![CDATA[Network-level Custom Audiences can now be targeted (Bug Fix).]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/network-level-custom-audiences</link>
+            <guid isPermaLink="false">81f41a48-73b1-3e9c-ba19-4629a3d84ae0</guid>
+            <pubDate>Sun, 24 Nov 2019 14:36:09 GMT</pubDate>
+            <type>fixed</type>
+        </item>
+        <item>
+            <title><![CDATA[Lookalike Audiences]]></title>
+            <description><![CDATA[It is now possible to target Lookalike Audiences through the API. See:   Get Lookalike Audience Targeting Update Lookalike Audience Targeting]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/lookalike-audiences</link>
+            <guid isPermaLink="false">addaa9f4-0851-3521-80d9-087d30640ac1</guid>
+            <pubDate>Sun, 24 Nov 2019 14:34:35 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Custom Audience Rules]]></title>
+            <description><![CDATA[It is now possible to create/update a Custom Audience Rule through the API. The API also allows you to configure default suppression settings for the custom audience. See:  Custom Audience Quick ReferenceCreate a Custom Audience Rule]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/custom-audience-rule</link>
+            <guid isPermaLink="false">bfc5ff21-5bf5-3af0-874c-6de06282459e</guid>
+            <pubDate>Sun, 24 Nov 2019 14:31:10 GMT</pubDate>
+            <type>added</type>
+        </item>
+        <item>
+            <title><![CDATA[Audience Size]]></title>
+            <description><![CDATA[The API now provides an audience_size field for Custom Audiences (as well as Marketplace Audiences). See:  Custom Audience Rules &gt; audience_sizeGet Marketplace Audiences]]></description>
+            <link>https://backstage-api.readme.io/v1.0/changelog/audience-size</link>
+            <guid isPermaLink="false">63b979a2-1edd-3080-b279-5db57708bb78</guid>
+            <pubDate>Wed, 06 Nov 2019 15:01:11 GMT</pubDate>
+            <type>added</type>
+        </item>
+    </channel>
+</rss>
