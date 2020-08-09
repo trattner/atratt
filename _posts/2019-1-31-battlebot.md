@@ -16,7 +16,8 @@ Our documentation binder scored one point short of perfect, tying the all-time r
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KbTbsk4zdlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rIx3A9dCWjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rIx3A9dCWjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
 
 The whole experience was tremendously helpful in launching my engineering career. By the end of the class, I could create a decent CAD model in a just a few minutes on the final exam.
 
